@@ -4,7 +4,7 @@ import { inject } from '@vercel/analytics';
 inject();
 
 const api_base = process.env.NODE_ENV === 'production'
-  ? 'https://your-vercel-app.vercel.app'
+  ? 'https://todo-list-terrancejv.vercel.app/'
   : 'http://localhost:3001';
 
 function App() {
